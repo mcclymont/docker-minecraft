@@ -19,5 +19,6 @@ fi
 
 
 # Run supervisor which maintains the mumble server
-/usr/bin/supervisord
+cd /data/
+java -Xmx512M -Xms512M -jar minecraft_server.jar
 
